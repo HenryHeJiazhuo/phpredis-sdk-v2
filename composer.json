@@ -1,0 +1,20 @@
+{
+    "name": "henry_hjz/phpredis-sdk-v2",
+    "description": "phpredis tool library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hejiazhuo",
+            "email": "623387284@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpRedis\\": "src/"
+        }
+    }
+}
